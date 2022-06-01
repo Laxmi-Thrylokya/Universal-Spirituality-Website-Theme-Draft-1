@@ -1,0 +1,43 @@
+.n-wrapper{
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;   
+}
+
+.n-right{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin: 2rem;
+}
+
+.n-list{
+    display: flex;
+    flex:10;
+    gap: 1.5rem;
+    margin: 3rem;
+    white-space: nowrap;
+}
+
+.n-button{
+    flex:2;
+}
+
+.navbar__item:hover{
+    cursor: pointer;
+    color: var(--orange);
+}

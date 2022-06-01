@@ -1,0 +1,40 @@
+import React from 'react'
+import "./Contact.css";
+
+
+
+    
+function Contact() {
+  return (
+    <div className="contact-form" id="contact">
+      {/* left side copy and paste from work section */}
+      <div className="w-left">
+        <div className="awesome">
+          {/* darkMode */}
+          <span >Post your Question</span>
+          <span>to Shri Datta Swami</span>
+          <div
+            className="blur s-blur1"
+            style={{ background: "#ABF1FF94" }}
+          ></div>
+        </div>
+      </div>
+      {/* right side form */}
+      <div className="c-right">
+        <form >
+          <input type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <textarea name="message" className="user" placeholder="Message"/>
+          <input type="submit" value="Send" className="button"/>
+          <span>"Jai Guru Datta Swami"</span>
+          <div
+            className="blur c-blur1"
+            style={{ background: "var(--purple)" }}
+          ></div>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

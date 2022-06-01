@@ -1,0 +1,33 @@
+.Loginbar{
+    height: 5vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: #FFDEA3;
+    position: relative;
+    justify-content: flex-end;
+    
+}
+
+.Loginbar>:nth-child(1){
+    position: absolute;
+    left: 85%;
+
+}
+.Loginbar>:nth-child(2){
+    position: absolute;
+    left: 90%;
+}
+
+.Loginbar>:nth-child(3){
+    position: absolute;
+    transform: scale(0.1);
+    left: 79%;
+}
+
+.loginbar__item:hover{
+    cursor: pointer;
+    color: var(--white);
+    font-size: 15px;
+}

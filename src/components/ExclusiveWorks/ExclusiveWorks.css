@@ -1,0 +1,37 @@
+.ExclusiveWorks{
+    display: flex;
+    height: 60vh;
+    margin: 5rem;
+    position: relative;
+    
+}
+
+.cards{
+    display: flex;
+    gap: 3rem;
+    padding: 8rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .ExclusiveWorks>:nth-child(1){
+    position: absolute;
+    transform: scale(0.9);
+    margin-left: -2rem;
+}
+
+
+.cards>:nth-child(1) {
+    position: absolute;
+    left: 29%;
+}
+
+.cards>:nth-child(2) {
+    position: absolute;
+    left: 52%;
+}
+
+.cards>:nth-child(3) {
+    position: absolute;
+    left: 75%;
+} */

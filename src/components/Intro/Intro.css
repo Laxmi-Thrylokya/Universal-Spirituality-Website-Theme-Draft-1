@@ -1,0 +1,101 @@
+.Intro{
+    display: flex;
+    height: 69vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    margin-top: -2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: var(--black);
+}
+
+.collage{
+    transform: scale(0.95);
+}
+
+
+.i-right{
+    display: flex;
+    position: relative;
+    flex: 1;
+    margin-top: -2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: var(--black);
+}
+
+
+
+.i-name{
+    display:flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    white-space: nowrap;
+    margin-bottom: 4rem;
+}
+
+.i-name>:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(4) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.i-name>:nth-child(5) {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+
+.i-name>:nth-child(5):hover{
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 1.8rem;
+    /* border: none;
+    color: white; */
+    /* padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow:0px 20px 24px 3px rgba(255, 178, 77, 0.42); */
+}
+
+
+
+
